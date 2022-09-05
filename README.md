@@ -104,7 +104,7 @@ Acesse a rota `http://localhost:${rota-escolhida}/cadastro` para usar a interfac
 ## 🛠️ Construído com
 
 -   [Express](https://expressjs.com/pt-br/) - Framework web
--   [Npm](https://www.npmjs.com/) - Gerente de Dependência
+-   [Npm](https://www.npmjs.com/) - Gerenciador de Dependências
 
 ## ✒️ Autores
 
@@ -113,7 +113,7 @@ Acesse a rota `http://localhost:${rota-escolhida}/cadastro` para usar a interfac
 
 ## 🎁 Expressões de gratidão
 
--   Intitúto Alpha Lumén 🫂;
+-   Instituto Alpha Lumen 🫂;
 -   Equipe Alpha Edtech 📢;
 
 ---
