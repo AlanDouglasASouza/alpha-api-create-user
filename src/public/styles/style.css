@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#app {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    gap: 2rem;
+}
+
+#title {
+    width: 100%;
+    height: 80px;       
+    background-color: #14BC39;
+    color: aliceblue;
+    font-size: 22px;
+}
+
+.box-form {   
+    width: 90%;    
+}
+
+#forms-users {
+    height: 150px;
+}
+
+.title-create {
+    border-bottom: 1px solid #14BC39;
+    padding-left: 10px;
+}
+
+#form-container {
+    padding: 10px;
+    width: 100%;    
+}
+
+form {
+    display: flex;   
+    width: 100%;
+    justify-content: space-between;    
+}
+
+input {
+    width: 38%;
+    height: 40px;
+    border: 1px solid #14BC39;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;    
+}
+
+button {
+    width: 20%;
+    height: 40px;
+    border: none;
+    background-color: #14BC39;
+    font-size: 22px;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#result-users {
+    padding-bottom: 30px;
+}
+
+#result-table {
+    width: 100%;
+    padding-top: 10px;
+}
+
+span {
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 10%;
+    text-align: center;
+    height: 20px;
+    border: none;
+    padding: 8px;
+}
+
+.tab-line {
+    background-color: #14BC39;
+    color: #ffffff;
+    font-size: 18px;
+    height: 40px;
+}
+
+.tab-name, .tab-email {
+    width: 35%;    
+}
+
+#list-user {
+    background-color: #BDE3C6;
+    height: 10px;
+    color: #535151;
+}
+
+.results {
+    border: none;
+    height: 30px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+
+[data-line="1"] {
+    background-color: #BDE3C6;
+    height: 20px;
+    color: #535151;
+}
+
+[data-line="2"] {
+    background-color: #F8F8F8;
+    height: 20px;
+    color: #535151;
+}
