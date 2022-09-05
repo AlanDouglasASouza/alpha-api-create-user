@@ -22,7 +22,7 @@ Node.js
 
 ### 🔧 Instalação
 
-Para iniciar a aplicação, estando dentro do diretório "api-crete-user" e em um ambiante com node.js, é necessário dar o comando `npm install` ou `yarn install` para instalar as dependências:
+Para iniciar a aplicação, estando dentro do diretório e em um ambiante com node.js, é necessário dar o comando `npm install` ou `yarn install` para instalar as dependências:
 
 ```
 npm install
@@ -40,7 +40,7 @@ Foi configurado, visando segurança, que a porta que irá servir a aplicação s
 PORT=<porta-desejada>
 ```
 
-O arquivo `service.js` que se encontra em `src/service.js` inicia a aplicação:
+O arquivo `server.js` que se encontra em `src/server.js` inicia a aplicação:
 
 ```
 node src/server.js
@@ -98,7 +98,7 @@ A interface da aplicação está na rota `/cadastro`. A pasta `src/public` possu
 Acesse a rota `http://localhost:${rota-escolhida}/cadastro` para usar a interface visual da aplicação 😁:
 
 <div align="center" >
-  <img src="/src/public/assets/exemple-02.png" />  
+  <img src="/src/public/assets/exemple-01.png" />  
 </div>
 
 ## 🛠️ Construído com
